@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: #8b4c6b;
+}
 
 .container h1{
     font-size: 2em;
@@ -65,4 +68,27 @@
     padding: 1em;
     margin: 1em 0 1em 0;
     border-radius: 5px;
+}
+
+.comentario small {
+    display: block;
+    justify-self: right;
+    margin: 5px 0;
+    color: #636363;
+}
+
+.eliminar {
+    display: flex;
+    justify-self: right;
+    background-color: #a41f1f;
+    color: rgb(250, 240, 240);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.comentario .eliminar:hover {
+    background-color: #ff1a1a;
 }

@@ -48,9 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const comentarioDiv = document.createElement('div');
             comentarioDiv.classList.add('comentario'); // Agregar una clase para estilos
             comentarioDiv.innerHTML = `
+                <small>Publicado el: ${comentario.fecha}</small>
                 <h4>${comentario.nombre}</h4>
                 <p>${comentario.comentario}</p>
-                <small>Publicado el: ${comentario.fecha}</small>
                 <button class="eliminar" data-index="${index}">Eliminar</button>
             `;
             contenedor.appendChild(comentarioDiv);
